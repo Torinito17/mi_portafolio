@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+  
+  .logo {
+    font-family: 'Georgia', serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #00ffd5;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #00ffd5;
+    text-shadow: 0 0 5px #00ffd5;
+  }
+  
+  .section {
+    padding: 2rem;
+  }
+  
+  .profile-pic {
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 1rem;
+  }
+  
+  .project {
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: start;
+  }
+  
+  .skill {
+    width: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .skill img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+  }
+  
+  #recommendationForm {
+    margin-top: 1rem;
+  }
+  
+  #recommendationInput {
+    padding: 0.5rem;
+    width: 70%;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    margin-left: 0.5rem;
+    background-color: #00ffd5;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #00ccaa;
+  }
+  
+  .home-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 2rem;
+    text-decoration: none;
+  }
+  
